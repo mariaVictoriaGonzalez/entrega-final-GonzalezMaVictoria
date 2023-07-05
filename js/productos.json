@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Figura Hitsune Miku:",
+        "codigo": "f0234",
+        "precio": 2990,
+        "categoria": "figuras",
+        "imagen": "../assets/img/producto-figura-hatsune-miku.jpg"
+    },
+    {
+        "nombre": "Manga Jujutsu Kaisen:",
+        "codigo": "m1991",
+        "precio": 2000,
+        "categoria": "mangas",
+        "imagen": "../assets/img/producto-manga-jujutsu-kaisen .jpg"
+    },
+    {
+        "nombre": "Figura Naruto Shipuden:",
+        "codigo": "f5836",
+        "precio": 2750,
+        "categoria": "figuras",
+        "imagen": "../assets/img/producto-figura-naruto.jpg"
+    },
+    {
+        "nombre": "Manga Kimetsu no Yaiba",
+        "codigo": "m0223",
+        "precio": 2200,
+        "categoria": "mangas",
+        "imagen": "../assets/img/producto-manga-kimetsu .jpg"
+    }
+]
