@@ -1,6 +1,7 @@
 const containerCheckout = document.querySelector("section.containerCheckout")
 const productosElegidos = JSON.parse(localStorage.getItem("productosElegidos"))
 const carritoCantidad = document.querySelector("span.carritoCantidad")
+const botonFinalizarCompra = document.querySelector("button.botonFinalizarCompra")
 
 function imprimirCarrito({ codigo, nombre, precio } = productosElegidos) {
     return `<div class="divTabla">
@@ -40,7 +41,8 @@ function activarBotonesEliminar() {
             containerCheckout.innerHTML = ""
             imprimirTotal()
             activarBotonesEliminar()
-            productosElegidos.length === 0 && (containerCheckout.innerHTML = imprimirCarritoVacio())
+            productosElegidos.length === 0 && (containerCheckout.innerHTML = imprimirCarritoVacio(), botonFinalizarCompra.style.display = 'none'
+            )
         })
     }
 }
@@ -57,11 +59,10 @@ function lanzarAlertFinalizarCompra() {
         icon: 'success',
         title: 'Gracias por tu compra!',
         text: 'El total de tu compra es: $' + productosElegidos.reduce((acc, productoElegido) => acc + productoElegido.precio, 0),
-        })
+    })
 }
 
 function finalizarCompra() {
-    const botonFinalizarCompra = document.querySelector("button.botonFinalizarCompra")
     botonFinalizarCompra.addEventListener("click", () => {
         let productosElegidos = []
         localStorage.clear()
