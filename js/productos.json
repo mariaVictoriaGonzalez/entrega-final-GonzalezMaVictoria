@@ -1,20 +1,20 @@
 [
     {
-        "nombre": "Figura Hitsune Miku:",
+        "nombre": "Figura Hitsune Miku",
         "codigo": "f0234",
         "precio": 2990,
         "categoria": "figuras",
         "imagen": "../assets/img/producto-figura-hatsune-miku.jpg"
     },
     {
-        "nombre": "Manga Jujutsu Kaisen:",
+        "nombre": "Manga Jujutsu Kaisen",
         "codigo": "m1991",
         "precio": 2000,
         "categoria": "mangas",
         "imagen": "../assets/img/producto-manga-jujutsu-kaisen .jpg"
     },
     {
-        "nombre": "Figura Naruto Shipuden:",
+        "nombre": "Figura Naruto Shipuden",
         "codigo": "f5836",
         "precio": 2750,
         "categoria": "figuras",
@@ -26,5 +26,61 @@
         "precio": 2200,
         "categoria": "mangas",
         "imagen": "../assets/img/producto-manga-kimetsu .jpg"
+    },
+    {
+        "nombre": "Remera Bakugou",
+        "codigo": "f6234",
+        "precio": 4980,
+        "categoria": "ropa",
+        "imagen": "../assets/img/producto-remera-bakugou.jpg"
+    },
+    {
+        "nombre": "Manga Chainsaw Man",
+        "codigo": "m1791",
+        "precio": 2500,
+        "categoria": "mangas",
+        "imagen": "../assets/img/producto-manga-chainsaw-man.jpg"
+    },
+    {
+        "nombre": "Figura Izuku, My Hero Academia",
+        "codigo": "f5836",
+        "precio": 5850,
+        "categoria": "figuras",
+        "imagen": "../assets/img/producto-figura-izuku.jpg"
+    },
+    {
+        "nombre": "Remera All Might, My Hero Academia",
+        "codigo": "m0283",
+        "precio": 5245,
+        "categoria": "ropa",
+        "imagen": "../assets/img/producto-remera-allmight.jpg"
+    },
+    {
+        "nombre": "Remera My Hero Academia",
+        "codigo": "f6264",
+        "precio": 4980,
+        "categoria": "ropa",
+        "imagen": "../assets/img/producto-remera-my-hero.jpg"
+    },
+    {
+        "nombre": "Manga My Hero Academia",
+        "codigo": "m9991",
+        "precio": 2600,
+        "categoria": "mangas",
+        "imagen": "../assets/img/producto-manga-my-hero.jpg"
+    },
+    {
+        "nombre": "Remera Levi, Attack on Titan",
+        "codigo": "f3836",
+        "precio": 5850,
+        "categoria": "ropa",
+        "imagen": "../assets/img/producto-remera-levi.jpg"
+    },
+    {
+        "nombre": "Figura Tanjiro, Kimetsu no Yaiba",
+        "codigo": "m3223",
+        "precio": 4540,
+        "categoria": "figuras",
+        "imagen": "../assets/img/producto-figura-tanjiro.jpg"
     }
 ]

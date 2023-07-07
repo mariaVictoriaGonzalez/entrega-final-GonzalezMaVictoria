@@ -32,7 +32,6 @@ imprimirTotal()
 
 function activarBotonesEliminar() {
     const botonesEliminar = document.querySelectorAll("button.botonEliminarItem")
-
     for (let botonEliminar of botonesEliminar) {
         botonEliminar.addEventListener('click', (e) => {
             const productoElegido = productosElegidos.find((producto) => producto.codigo === e.target.id)
